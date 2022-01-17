@@ -8,7 +8,7 @@ const About: NextPage = () => {
   return (
     <div className="flex flex-col flex-grow px-6 pt-1 ">
       <h6 className="my-3 text-base font-oxygen">
-        I am currently working as a PhD student at the deparment of Pathology at the Amsterdam UMC. I followed a remote Full-stack development course at Winc Academy and am currently trying to expand my front-end skills by following tutorials and building projects.
+        I am currently working as a PhD student at the department of Pathology at the Amsterdam UMC. I followed a remote Full-stack development course at Winc Academy and am currently trying to expand my front-end skills by following tutorials and building projects.
       </h6>
       <div
         className="flex-grow p-4 mt-5 bg-gray-300 dark:bg-dark-100 "

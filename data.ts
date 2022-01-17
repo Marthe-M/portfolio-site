@@ -45,7 +45,7 @@ export const languages: Skill[] = [
  {
     Icon: BsCircleFill,
     name: "JavaScript",
-    level: "70",
+    level: "75",
   }, 
   {
     Icon: BsCircleFill,
@@ -60,12 +60,12 @@ export const languages: Skill[] = [
   {
     Icon: BsCircleFill,
     name: "NodeJS",
-    level: "25",
+    level: "20",
   },
   {
     Icon: BsCircleFill,
     name: "Python",
-    level: "25",
+    level: "20",
   }
 ];
 
@@ -105,7 +105,17 @@ export const projects: IProject[] = [
     category: ["react", "javascript"],
     description:
       "A tool that shows the current weather and forecast at your current location",
-    key_techs: ["React", "JavaScript", "API"],
+    key_techs: ["React", "JavaScript", "Openweather API"],
+  },
+    {
+    name: "Book App",
+    image_path: "https://d33wubrfki0l68.cloudfront.net/61e424273eccb121a9798d3d/screenshot_2022-01-16-13-58-28-0000.png",
+    deployed_url: "https://my-react-book-app.netlify.app/",
+    github_url: "https://github.com/Marthe-M/My-book-app",
+    category: ["react", "javascript"],
+    description:
+      "A tool that uses the Google Books API to search through books and collect all your favorites",
+    key_techs: ["React", "JavaScript", "Google Books API"],
   },
 
   {

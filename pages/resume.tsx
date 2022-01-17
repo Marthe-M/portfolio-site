@@ -13,7 +13,7 @@ const Resume = () => {
             </h5>
             <p className="font-semibold">Amsterdam UMC (2015 - current)</p>
             <p className="my-3">
-              PhD student at the deparment of Pathology studying the pathogenesis of B-cell malignancies.
+              PhD student at the department of Pathology studying the pathogenesis of B-cell malignancies.
             </p>
           </div>
         </div>
