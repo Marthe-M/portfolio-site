@@ -40,7 +40,7 @@ export const languages: Skill[] = [
   {
     Icon: BsCircleFill,
     name: "CSS",
-    level: "75",
+    level: "80",
   },
  {
     Icon: BsCircleFill,
@@ -60,6 +60,11 @@ export const languages: Skill[] = [
   {
     Icon: BsCircleFill,
     name: "NodeJS",
+    level: "20",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "NextJS",
     level: "20",
   },
   {
@@ -126,6 +131,16 @@ export const projects: IProject[] = [
     category: ["react", "javascript"],
     description:
       "A tool to rate and keep track of your favorite songs",
-    key_techs: ["React", "Winc Academy"],
+    key_techs: ["React", "JavaScript", "Winc Academy"],
+  },
+    {
+    name: "Tic Tac Toe",
+    image_path: "https://d33wubrfki0l68.cloudfront.net/61e6a0138eef0bcaac2570ed/screenshot_2022-01-18-11-11-45-0000.png",
+    deployed_url: "https://tic-tac-toe-game-nextjs.netlify.app/",
+    github_url: "https://github.com/Marthe-M/tic-tac-toet",
+    category: ["typescript", "nextjs"],
+    description:
+      "A fun app to play a game of Tic Tac Toe",
+    key_techs: ["NextJS", "TypeScript"],
   }
 ];
