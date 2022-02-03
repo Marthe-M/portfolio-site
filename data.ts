@@ -142,5 +142,15 @@ export const projects: IProject[] = [
     description:
       "A fun app to play a game of Tic Tac Toe",
     key_techs: ["NextJS", "TypeScript"],
+  },
+   {
+    name: "Shopping Cart",
+    image_path: "https://d33wubrfki0l68.cloudfront.net/61fba638f706a400070efb9d/screenshot_2022-02-03-09-55-10-0000.png",
+    deployed_url: "https://shopping-cart-apple.netlify.app",
+    github_url: "https://github.com/Marthe-M/shopping-cart",
+    category: ["typescript", "react"],
+    description:
+      "A website to search through Apple products and collect them in your shopping cart.",
+    key_techs: ["React", "React Hooks", "TypeScript"],
   }
 ];
