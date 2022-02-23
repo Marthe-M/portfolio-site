@@ -155,12 +155,22 @@ export const projects: IProject[] = [
   },
   {
     name: "Note Taking CRUD App",
-    image_path: "blob:https://vercel.com/4a64c8d1-e50c-4f24-927a-19d193f4fb25",
+    image_path: "https://i.ibb.co/FbxFvQ0/noteapp.png",
     deployed_url: "https://note-crud-app.vercel.app/",
     github_url: "https://github.com/Marthe-M/note-crud-app",
     category: ["typescript", "nextjs"],
     description:
-      "An app to keep track of all your important notes.",
+      "An app to create and keep track of all your important notes.",
     key_techs: ["NextJS", "TypeScript", "PostgreSQL", "Prisma"],
+  },
+  {
+    name: "Pokedex App",
+    image_path: "https://i.ibb.co/gvJSf5f/pokedexapp.png",
+    deployed_url: "https://pokedex-app-nu.vercel.app/",
+    github_url: "https://github.com/Marthe-M/pokedex-app",
+    category: ["typescript", "nextjs"],
+    description:
+      "An app to catch and collect all your favorite Pokemon!",
+    key_techs: ["NextJS", "TypeScript", "PostgreSQL", "GraphQl", "Apollo", "Prisma"],
   }
 ];
