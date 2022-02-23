@@ -9,13 +9,13 @@ export const services: Service[] = [
     Icon: RiComputerLine,
     title: "Front-end Development",
     about:
-      "HTML, CSS, JavaScript, React. Currently learning NextJS and Typescript",
+      "HTML, CSS, JavaScript, React. Currently learning NextJS and TypeScript",
   },
   {
     Icon: FaServer,
     title: "Back-end  Development",
     about:
-      "Python and SQL. Currently learning MongoDB and Node.js",
+      "Currently experimenting with NextJS, GraphQL and REST APIs",
   },
   {
     Icon: AiFillPieChart,
@@ -55,22 +55,17 @@ export const languages: Skill[] = [
   {
     Icon: BsCircleFill,
     name: "TypeScript",
-    level: "25",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "NodeJS",
-    level: "20",
+    level: "30",
   },
   {
     Icon: BsCircleFill,
     name: "NextJS",
-    level: "20",
+    level: "30",
   },
   {
     Icon: BsCircleFill,
     name: "Python",
-    level: "20",
+    level: "15",
   }
 ];
 
@@ -171,6 +166,6 @@ export const projects: IProject[] = [
     category: ["typescript", "nextjs"],
     description:
       "An app to catch and collect all your favorite Pokemon!",
-    key_techs: ["NextJS", "TypeScript", "PostgreSQL", "GraphQl", "Apollo", "Prisma"],
+    key_techs: ["NextJS", "TypeScript", "PostgreSQL", "GraphQL", "Apollo", "Prisma"],
   }
 ];
