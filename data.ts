@@ -55,12 +55,17 @@ export const languages: Skill[] = [
   {
     Icon: BsCircleFill,
     name: "TypeScript",
-    level: "30",
+    level: "40",
   },
   {
     Icon: BsCircleFill,
     name: "NextJS",
     level: "30",
+  },
+   {
+    Icon: BsCircleFill,
+    name: "Angular",
+    level: "20",
   },
   {
     Icon: BsCircleFill,
