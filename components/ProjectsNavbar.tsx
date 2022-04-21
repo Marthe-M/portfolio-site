@@ -27,6 +27,7 @@ const ProjectsNavbar: FunctionComponent<{
       <NavItem value="javascript" {...props} />
       <NavItem value="typescript" {...props} />
       <NavItem value="nextjs" {...props} />
+      <NavItem value="angular" {...props} />
     </div>
   );
 };
