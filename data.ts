@@ -172,5 +172,15 @@ export const projects: IProject[] = [
     description:
       "An app to catch and collect all your favorite Pokemon!",
     key_techs: ["NextJS", "TypeScript", "PostgreSQL", "GraphQL", "Apollo", "Prisma"],
+  },
+   {
+    name: "Recipe App",
+    image_path: "https://i.ibb.co/f0JkL7y/recipesite.jpg",
+    deployed_url: "https://recipe-app-angular.vercel.app/",
+    github_url: "https://github.com/Marthe-M/recipe-app",
+    category: ["angular", "typescript"],
+    description:
+      "An app to store all your favorite recipes!",
+    key_techs: ["Angular", "TypeScript", "Firebase", "Bootstrap"],
   }
 ];
