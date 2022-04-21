@@ -22,5 +22,5 @@ export interface IProject {
   key_techs: string[];
 }
 
-export type Category = "react" | "python" | "typescript" | "javascript" | "nextjs" ;
+export type Category = "react" | "python" | "typescript" | "javascript" | "nextjs" | "angular" ;
 
