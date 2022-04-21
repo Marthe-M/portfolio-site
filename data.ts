@@ -9,7 +9,7 @@ export const services: Service[] = [
     Icon: RiComputerLine,
     title: "Front-end Development",
     about:
-      "HTML, CSS, JavaScript, React. Currently learning NextJS and TypeScript",
+      "HTML, CSS, JavaScript, React. Currently learning NextJS, Angular and TypeScript",
   },
   {
     Icon: FaServer,
